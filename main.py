@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("2C92ASCcTspGD63sr03JDGGfQ5XZ2reG")
+API_KEY = os.getenv("ACCUWEATHER_API_KEY")
 BASE_URL = "https://dataservice.accuweather.com"
 
 app = FastAPI()
